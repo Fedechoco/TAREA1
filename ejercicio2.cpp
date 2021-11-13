@@ -118,10 +118,36 @@ void numeroImpar(){
         }
         }
 
-        {
-            /* code */
-        }
+ void conversionCelsiusFarenheit(){
+
+        int valor1 = 0;
+        int incremento = 0;
+        int conversiones = 0;
+        int valornuevo= 0;
+
+
+        cout<<"Dime cual es el valor inicial en celsius"<<endl;
+        cin>>valor1;
+
+        cout<<"Cuantas conversiones se haran?"<<endl;
+        cin>>conversiones;
+
+        cout<<"Incremento en los valores celsius?"<<endl;
+        cin>>incremento;
         
+        cout<<"     ¡Conversión de grados Celsius a Farenheit!     "<<endl;
+
+
+        cout<<"Farenheit                                  Celcius"<<endl;
+
+
+                float faren = (9.0/5.0) * valor1 + 32;
+
+
+
+            cout<<faren<<"                                      "<<valor1<<endl;
+
+                float nuevovalor = 0;
 
 
 
